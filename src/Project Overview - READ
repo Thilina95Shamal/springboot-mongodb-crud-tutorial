@@ -1,0 +1,15 @@
+Create IntelliJ Project
+- Make sure it is Java version 11
+- With a compatible spring version 2.4.9
+- other than main dependencies spring-boot-starter-data-mongodb is needed
+
+Create Collections in MongoDb
+- Make sure to create cluster, database, collection in the Mongodb atlas cloud
+- connect with credentials and the given uri from the atlas cloud and set it to the application.properties file
+- Also make sure that the env variable is set to the running java version (11)
+
+Create Application
+- Use Rest Apis, Spring Data Jpa fro dev and postman for testing
+- Rest apis for get list of,get one, create, update , delete todoos
+- Validate necessaries. (Validate thorough : spring-started-validation, Mongo validation Config & Custom exception
+- Do the necessities to all CRUD Operations
